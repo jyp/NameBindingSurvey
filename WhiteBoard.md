@@ -1,12 +1,12 @@
 Techniques
 ----------
 
-- Strings
+- Named: Strings or Atoms
 - Unique integers
 - de Bruijn indices
 - de Bruijn levels
 - Locally nameless
-  - Sato (?) & Pollack
+    - Sato (?) & Pollack
 - Fin
 - Nested Abstact Syntax (aka. Maybe)
 - HOAS
@@ -14,6 +14,7 @@ Techniques
 - Syntax For Free (Atkey)
 
 Variants:
+
 - Finally Tagless
 
 
@@ -21,29 +22,35 @@ Criteria
 --------
 
 - Easy to prove things about code using the technique
-  - POPLmark challenge
+    - POPLmark challenge
+
 - Interface
-  - Simple types?
-  - Kind of binders supported (simple/recursive/.../telescopes/...)
+    - Simple types?
+    - Kind of binders supported (simple/recursive/.../telescopes/...)
 
 - Possibility/Efficiency of:
-  - Compilation
-  - Evaluation
- 
+    - Compilation
+    - Evaluation
+
 - Extensibility/Compatibility with open data types
 
 - Host language requirements
-  - Simple types 
-  - ...
-  - Dependent types
-  - ...
+    - Simple types
+    - ...
+    - Polymorphism
+    - Nested/Non-regular data types
+    - Type classes
+    - RankNTypes
+    - GADTs
+    - Dependent types
+    - ...
 
 - Precision/Safety
-  - Closed Terms are well-scoped
-  - All terms well-scoped
-  - + Proved to be so?
+    - Closed Terms are well-scoped
+    - All terms well-scoped
+    - + Proved to be so?
 
-  - Typing of the object language encodable?
+    - Typing of the object language encodable?
 
 
 
